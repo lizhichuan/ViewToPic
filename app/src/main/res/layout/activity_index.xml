@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/mTvShotStyleOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="对xml固定绘制的截图"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/mTvShotStyleTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="对动态添加的View的截图"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/mTvWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="web"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/mTvScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollView Shot"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/mTvLv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListView Shot"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/mTvRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView Shot"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
